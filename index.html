@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" href="css/unslider.css">
+    <link rel="stylesheet" href="css/unslider-dots.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed" rel="stylesheet">
+    <title>Company name - home page</title>
+</head>
+
+<body>
+<header>
+    <div class="center_main">
+        <div class="h_top clearfix">
+            <p class="logo">BIRUANG</p>
+            <div class="cont_basket">
+                <p class="header_phone"><img src="images/Phone_icon.jpg" alt="phone">+371 282 20 760</p>
+                <p class="header_basket"><img src="images/Basket_icon.jpg" alt="basket">$ 99.54 <a href="#">Checkout</a>
+                </p>
+            </div>
+        </div>
+        <div class="h_bottom clearfix">
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">MEN</a></li>
+                    <li><a href="#">WOMEN</a></li>
+                    <li><a href="#">KIDS</a></li>
+                    <li><a href="#">SALE</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">SUPPORT</a></li>
+                </ul>
+            </nav>
+            <div class="search_block">
+                <form action="" method="get">
+                    <input type="image" src="images/Search_icon.jpg" class="search_btn">
+                    <input type="search" class="search" placeholder="Search...">
+                </form>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="my-slider center_main">
+    <ul>
+        <li>
+            <h2>RIGHT IS PINK. <br>LEFT IS BLUE</h2>
+            <p>Inspired by Brasil’s bold colors and matching up to football’s on-pitch<br>
+                playmakers, these kicks are ready to stand out.</p>
+            <img src="images/Slider1.jpg" alt="">
+        </li>
+        <li>
+            <h2>RIGHT IS PINK. <br>LEFT IS BLUE</h2>
+            <p>Inspired by Brasil’s bold colors and matching up to football’s on-pitch<br>
+                playmakers, these kicks are ready to stand out.</p>
+            <img src="images/Slider1.jpg" alt="">
+        </li>
+        <li>
+            <h2>RIGHT IS PINK. <br>LEFT IS BLUE</h2>
+            <p>Inspired by Brasil’s bold colors and matching up to football’s on-pitch<br>
+                playmakers, these kicks are ready to stand out.</p>
+            <img src="images/Slider1.jpg" alt="">
+        </li>
+    </ul>
+</div>
+<div class="block3_main">
+    <article>
+        <img src="images/img31.jpg" alt="">
+        <h2><a href="">FOOTBALL SHOES</a></h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing,
+            vivamus congue nulla leo, quis imperdiet magna</p>
+    </article>
+    <article>
+        <img src="images/img32.jpg" alt="">
+        <h2><a href="">MODERN CLOTHES</a></h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing,
+            vivamus congue nulla leo, quis imperdiet magna.</p>
+    </article>
+    <article>
+        <img src="images/img33.jpg" alt="">
+        <h2><a href="">BAGS & ACCESSORIES</a></h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing,
+            vivamus congue nulla leo, quis imperdiet magna</p>
+    </article>
+</div>
+
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/unslider-min.js"></script>
+<script>
+    jQuery(document).ready(function ($) {
+        $('.my-slider').unslider({
+            autoplay: true,
+            arrows: false
+        });
+    });
+</script>
+</body>
+</html>
