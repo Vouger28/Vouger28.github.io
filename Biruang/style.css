@@ -237,3 +237,11 @@ img {
     left: 31px;
     font-size: 0.875em;
 }
+.block3_main {
+
+}
+.block3_main article {
+    width: 31.6%;
+    float: left;
+    margin-left: 2.6%;
+}
