@@ -238,7 +238,7 @@ img {
     font-size: 0.875em;
 }
 .block3_main {
-
+    margin-bottom: 50px;
 }
 .block3_main article {
     width: 31.6%;
@@ -259,4 +259,24 @@ img {
    }
 .block3_main article p {
     font-size: 0.875em;
+}
+.block4-section {
+}
+.block4-section>h2 {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.375em;
+    color:#67686d;
+    margin-bottom: 30px;
+}
+.block4-maine {
+
+}
+.block4-maine article {
+    width: 23%;
+    margin-left: 2.666666666666%;
+    float: left;
+}
+.block4-maine article:first-child {
+    margin-left: 0;
 }
