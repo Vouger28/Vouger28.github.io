@@ -185,9 +185,11 @@ img {
     color: #7e7f84;
     text-decoration: none;
 }
+
 .menu li:first-child > a {
     color: #f45a40;
 }
+
 .menu li a:hover {
     color: #f45a40;
 }
@@ -210,19 +212,23 @@ img {
     border: none;
     line-height: 1.4;
 }
+
 .my-slider {
 
 }
+
 .unslider-nav {
     max-width: 1170px;
     margin: 0 auto;
     position: relative;
     top: -30px;
 }
+
 .my-slider ul li {
     position: relative;
     color: #f45a40;
 }
+
 .my-slider ul li h2 {
     position: absolute;
     top: 204px;
@@ -231,52 +237,111 @@ img {
     font-weight: bold;
     line-height: 1.1;
 }
+
 .my-slider ul li p {
     position: absolute;
     top: 346px;
     left: 31px;
     font-size: 0.875em;
 }
+
 .block3_main {
     margin-bottom: 50px;
 }
+
 .block3_main article {
     width: 31.6%;
     float: left;
     margin-left: 2.6%;
 }
+
 .block3_main article:first-child {
     margin-left: 0;
 }
+
 .block3_main article img {
     display: block;
     margin: 0 auto 20px auto;
 }
+
 .block3_main article h2 {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 1.375em;
     margin-bottom: 20px;
-   }
+}
+
 .block3_main article p {
     font-size: 0.875em;
 }
+
 .block4-section {
+    margin-bottom: 60px;
 }
-.block4-section>h2 {
+
+.block4-section > h2 {
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 1.375em;
-    color:#67686d;
+    color: #67686d;
     margin-bottom: 30px;
 }
+
 .block4-maine {
 
 }
+
 .block4-maine article {
     width: 23%;
     margin-left: 2.666666666666%;
     float: left;
 }
+
 .block4-maine article:first-child {
     margin-left: 0;
+}
+
+.block4-maine article img {
+    display: block;
+    margin: 0 auto;
+}
+
+.block4-maine-content {
+    padding: 20px 20px 0 20px;
+    border: #eeeeee solid 1px;
+    border-top: none;
+}
+
+.block4-maine-content h2 {
+    color: #67686d;
+    font-size: 1.125em;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.block4-maine-content h3 {
+    font-size: 0.875em;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.block4-maine-content p {
+    font-size: 0.625em;
+    margin-bottom: 15px;
+}
+
+p.price-basket {
+    border-top: 1px solid #eeeeee;
+    font-size: 0.875em ;
+    color: #f45a40;
+    padding: 15px 0;
+    margin-bottom: 0;
+}
+
+.price {
+    float: left;
+}
+
+.basket-btn {
+    float: right;
 }
