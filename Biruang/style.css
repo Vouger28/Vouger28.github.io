@@ -120,7 +120,7 @@ img {
 
 .h_top {
     padding: 50px 0 0 0;
-    border-bottom: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEE;
 }
 
 .logo {
@@ -146,7 +146,7 @@ img {
 }
 
 .header_basket {
-    border: 1px solid #EEEEEE;
+    border: 1px solid #EEE;
     padding: 8px 25px;
     margin-left: 24px;
 }
@@ -307,7 +307,7 @@ img {
 
 .block4-maine-content {
     padding: 20px 20px 0 20px;
-    border: #eeeeee solid 1px;
+    border: #eee solid 1px;
     border-top: none;
 }
 
@@ -331,8 +331,8 @@ img {
 }
 
 p.price-basket {
-    border-top: 1px solid #eeeeee;
-    font-size: 0.875em ;
+    border-top: 1px solid #eee;
+    font-size: 0.875em;
     color: #f45a40;
     padding: 15px 0;
     margin-bottom: 0;
