@@ -88,11 +88,13 @@
         <article>
             <img src="images/img41.jpg" alt="">
             <div class="block4-maine-content">
-                <h2>Nike Tailwind Loose</h2>
-                <h3>Running Tank Top</h3>
-                <p>The Nike Tailwind Loose Women's Running Tank
-                    Top is made with sweat-wicking fabric to help you
-                    stay dry and comfortable on your run.</p>
+                <div class="resize">
+                    <h2>Nike Tailwind Loose</h2>
+                    <h3>Running Tank Top</h3>
+                    <p>The Nike Tailwind Loose Women's Running Tank
+                        Top is made with sweat-wicking fabric to help you
+                        stay dry and comfortable on your run.</p>
+                </div>
                 <p class="price-basket clearfix">
                     <span class="price">$ 36.99</span>
                     <span class="basket-btn"><a href="#"><img src="images/Plus_icon.jpg" alt=""></a></span>
@@ -102,12 +104,14 @@
         <article>
             <img src="images/img42.jpg" alt="">
             <div class="block4-maine-content">
-                <h2>Nike g87</h2>
-                <h3>Training Tank Top</h3>
-                <p>The Nike G87 Women's Training Tank Top features
-                    soft, sweat-wicking fabric and a regular fit for total
-                    comfort during any workout.
-                </p>
+                <div class="resize">
+                    <h2>Nike g87</h2>
+                    <h3>Training Tank Top</h3>
+                    <p>The Nike G87 Women's Training Tank Top features
+                        soft, sweat-wicking fabric and a regular fit for total
+                        comfort during any workout.
+                    </p>
+                </div>
                 <p class="price-basket clearfix">
                     <span class="price">$ 49.99</span>
                     <span class="basket-btn"><a href="#"><img src="images/Plus_icon.jpg" alt=""></a></span>
@@ -117,11 +121,13 @@
         <article>
             <img src="images/img43.jpg" alt="">
             <div class="block4-maine-content">
-                <h2>Nike I-Beam Swoosh</h2>
-                <h3>Sports Top</h3>
-                <p>The Nike I-Beam Swoosh Women's Sports Top
-                    features a built-in bra and mesh back panel for
-                    lightweight support and targeted breathability.</p>
+                <div class="resize">
+                    <h2>Nike I-Beam Swoosh</h2>
+                    <h3>Sports Top</h3>
+                    <p>The Nike I-Beam Swoosh Women's Sports Top
+                        features a built-in bra and mesh back panel for
+                        lightweight support and targeted breathability.</p>
+                </div>
                 <p class="price-basket clearfix">
                     <span class="price">$ 70.00</span>
                     <span class="basket-btn"><a href="#"><img src="images/Plus_icon.jpg" alt=""></a></span>
@@ -131,12 +137,14 @@
         <article>
             <img src="images/img44.jpg" alt="">
             <div class="block4-maine-content">
-                <h2>Nike lux</h2>
-                <h3>Running Top</h3>
-                <p>The Nike Lux Women's Running Top is made with
-                    lightweight Dri-FIT fabric and features a perforated
-                    back panel for comfort and enhanced breathability.
-                </p>
+                <div class="resize">
+                    <h2>Nike lux</h2>
+                    <h3>Running Top</h3>
+                    <p>The Nike Lux Women's Running Top is made with
+                        lightweight Dri-FIT fabric and features a perforated
+                        back panel for comfort and enhanced breathability.
+                    </p>
+                </div>
                 <p class="price-basket clearfix">
                     <span class="price">$ 28.49</span>
                     <span class="basket-btn"><a href="#"><img src="images/Plus_icon.jpg" alt=""></a></span>
@@ -145,6 +153,33 @@
         </article>
     </div>
 </section>
+<div class="about center_main clearfix">
+    <article>
+        <h2>About</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum lectus sit amet varius pulvinar. Proin
+            vitae
+            dui tincidunt nibh facilisis pellentesque. Fusce tortor turpis, facilisis ut condimentum eu, sagittis at
+            est.</p>
+
+        <p>Praesent egestas posuere urna a egestas. Maecenas facilisis orci vitae ante tempor accumsan. Aenean aliquam
+            justo ac sagittis vehicula. Nam mattis pretium odio sit amet vulputate.</p>
+
+        <p>Quisque non lobortis orci. Morbi augue mauris, ultrices at fermentum ac, consequat vitae magna. Pellentesque
+            non cursus mi, eu cursus nunc. Nullam et odio tristique, volutpat urna vitae, dignissim orci. Fusce eu nulla
+            urna.
+            This template was created by Erik Padamans.</p>
+
+        <p>Praesent egestas posuere urna a egestas. Maecenas facilisis orci vitae ante tempor accumsan. Aenean aliquam
+            justo ac sagittis vehicula. Nam mattis pretium odio sit amet vulputate.</p>
+    </article>
+    <div class="map">
+        <div class="mapin">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9937.902249901817!2d31.30558322665208!3d51.486139984228224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d548e5c661ba9f%3A0x369b35a159893d97!2z0JjRgdGC0L7RgNC40YfQtdGB0LrQuNC1INC_0YPRiNC60Lgg0JLQsNC70LA!5e0!3m2!1sru!2sua!4v1515612022095"
+                     frameborder="0" style="border:0" allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+</div>
 <script src="js/jquery-2.1.4.min.js"></script>
 <script src="js/unslider-min.js"></script>
 <script>
@@ -153,6 +188,22 @@
             autoplay: true,
             arrows: false
         });
+    });
+</script>
+<script>
+    function setEqualHeight(columns) {
+        var tallestcolumn = 0;
+        columns.each(function () {
+            currentHeight = $(this).height();
+            if (currentHeight > tallestcolumn) {
+                tallestcolumn = currentHeight;
+            }
+        });
+        columns.height(tallestcolumn);
+    }
+
+    $(document).ready(function () {
+        setEqualHeight($(".resize"));
     });
 </script>
 </body>
