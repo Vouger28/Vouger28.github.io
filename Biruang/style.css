@@ -361,7 +361,7 @@ p.price-basket {
 }
 
 .about article h2 {
-    font-size: 1.375em;
+    font-size: 1.438em;
     font-weight: bold;
     color: #67686d;
     margin-bottom: 30px;
@@ -369,7 +369,7 @@ p.price-basket {
 
 .about article p {
     font-size: 0.875em;
-    color: #67686d;
+    color: #7e7f84;
     margin-bottom: 20px;
     font-style: italic;
 }
@@ -387,4 +387,42 @@ p.price-basket {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.subscribe {
+    background-color: #f45a40;
+    color: white;
+    padding: 32px 0;
+}
+.subscribe h2 {
+    float: left;
+    font-size: 1.438em;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.subscribe-form {
+    float: right;
+}
+
+.email-inp {
+    float: left;
+    color: #7e7f84;
+    font-size: 0.875em;
+    text-transform: uppercase;
+    width: 15.375em;
+    padding:11px 25px;
+    border: none;
+}
+
+.submit-inp {
+    float: left;
+    padding:11px 25px;
+    background-color: #ff674f;
+    border: none;
+    color: white;
+    font-size: 0.875em;
+    text-transform: uppercase;
+    margin-left: 20px;
+    cursor: pointer;
 }
