@@ -113,7 +113,7 @@ img {
 }
 
 /* --------------- /базовые настройки ---------*/
-.center_main {
+.centr_main {
     max-width: 1170px;
     margin: 0 auto;
 }
@@ -424,5 +424,86 @@ p.price-basket {
     font-size: 0.875em;
     text-transform: uppercase;
     margin-left: 20px;
+    cursor: pointer;
+}
+.ftr {
+    background-color: #2a2d34;
+    padding: 45px 0;
+}
+
+.ftr h2 {
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.438em;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+
+}
+
+.ftr p {
+    font-size: 0.875em;
+    margin-bottom: 25px;
+}
+
+.ftr h3 {
+    font-size: 0.875em;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.ftr h3 a {
+    color: white;
+    text-decoration: none;
+}
+
+.ftr h3 a:hover {
+    text-decoration: underline;
+}
+
+.support {
+    float: left; width: 47%;
+    margin-right: 3%;
+}
+
+.support a {
+    display: block;
+    text-decoration: none;
+    color: #7e7f84;
+}
+
+.support a:hover {
+    text-decoration: underline;
+}
+
+.ftr_mail {
+    color: #7e7f84;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    margin-bottom: 21px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.ftr_text {
+    width: 100%;
+    color: #7e7f84;
+    text-transform: uppercase;
+    margin-bottom: 21px;
+    box-sizing: border-box;
+    border: none;
+    padding-top: 12px;
+    padding-left: 20px;
+    padding-bottom: 63px;
+}
+
+.ftr_submit {
+    font-size: 0.75em;
+    background-color: #f45a40;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 12px 20px;
     cursor: pointer;
 }
